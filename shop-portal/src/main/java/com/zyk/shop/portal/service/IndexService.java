@@ -5,6 +5,7 @@ import com.zyk.shop.portal.common.BaseResult;
 import com.zyk.shop.portal.common.ResultState;
 import com.zyk.shop.portal.config.AppConfig;
 import com.zyk.shop.portal.po.ShopUser;
+import com.zyk.shop.portal.po.ShopUserResult;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
@@ -32,7 +33,7 @@ public class IndexService {
         params.add("userAlias",shopUser.getUserAlias());
         params.add("loginKey",shopUser.getLoginKey());
         HttpEntity<MultiValueMap<String, String>> requestEntity = new HttpEntity<MultiValueMap<String, String>>(params, headers);
-        return restTemplate.postForEntity(appConfig.getUcUrl()+"/user/login",requestEntity,BaseResult.class).getBody();
+        return restTemplate.postForEntity(appConfig.getUcUrl()+"/user/login",requestEntity, ShopUserResult.class).getBody();
     }
 
     public BaseResult fallBack(ShopUser shopUser,Throwable throwable) {
@@ -46,6 +47,6 @@ public class IndexService {
     @HystrixCommand(fallbackMethod = "fallBack")
     public BaseResult register(ShopUser shopUser) {
         // 提交body
-        return restTemplate.postForObject(appConfig.getUcUrl()+"/user/register",shopUser,BaseResult.class);
+        return restTemplate.postForObject(appConfig.getUcUrl()+"/user/register",shopUser,ShopUserResult.class);
     }
 }

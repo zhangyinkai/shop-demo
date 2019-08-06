@@ -53,6 +53,7 @@ public class ShopUserController {
             return baseResult;
         }
         log.info("login user <<< "+baseResult);
+        baseResult.setBody(shopUser);
         return baseResult;
     }
 
@@ -79,6 +80,7 @@ public class ShopUserController {
         shopUser.setCreateTime(new Date());
         iShopUserService.save(shopUser);
         log.info("register user end <== "+shopUser);
+        baseResult.setBody(shopUser);
         return baseResult;
     }
 

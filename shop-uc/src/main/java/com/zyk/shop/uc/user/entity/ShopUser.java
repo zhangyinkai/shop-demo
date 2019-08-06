@@ -2,6 +2,7 @@ package com.zyk.shop.uc.user.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
@@ -22,6 +23,7 @@ import java.util.Date;
 @Accessors(chain = true)
 public class ShopUser implements Serializable {
 
+    @JsonIgnore
     private static final long serialVersionUID=1L;
 
     /**
@@ -48,11 +50,13 @@ public class ShopUser implements Serializable {
     /**
      * 密码
      */
+    @JsonIgnore
     private String loginKey;
 
     /**
      * 加盐字符串
      */
+    @JsonIgnore
     private String salt;
 
     /**
