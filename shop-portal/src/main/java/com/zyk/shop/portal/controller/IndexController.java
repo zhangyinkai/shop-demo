@@ -96,4 +96,9 @@ public class IndexController {
         commonLogic(modelAndView, baseResult, redirect,request);
         return modelAndView;
     }
+
+    @RequestMapping(value = {"/checkSession"}, method = RequestMethod.GET)
+    public BaseResult checkSession() {
+        return indexService.checkSession(null);
+    }
 }

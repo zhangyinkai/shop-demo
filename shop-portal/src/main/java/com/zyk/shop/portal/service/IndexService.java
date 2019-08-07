@@ -49,4 +49,11 @@ public class IndexService {
         // 提交body
         return restTemplate.postForObject(appConfig.getUcUrl()+"/user/register",shopUser,ShopUserResult.class);
     }
+
+
+    @HystrixCommand(fallbackMethod = "fallBack")
+    public BaseResult checkSession(ShopUser shopUser) {
+        // get 请求
+        return new BaseResult().setMessage(restTemplate.getForObject(appConfig.getUcUrl()+"/user/checkSession",String.class));
+    }
 }

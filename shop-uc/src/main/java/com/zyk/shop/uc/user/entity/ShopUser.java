@@ -1,6 +1,7 @@
 package com.zyk.shop.uc.user.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
@@ -68,6 +69,9 @@ public class ShopUser implements Serializable {
      * 状态,0=正常
      */
     private Integer states;
+
+    @TableField(exist = false)
+    private String tokenId;
 
 
 }
