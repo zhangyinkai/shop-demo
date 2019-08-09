@@ -1,9 +1,13 @@
 package com.zyk.shop.order;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.SpringCloudApplication;
+import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard;
 
-@SpringBootApplication
+@MapperScan("com.zyk.shop.order.*.mapper")
+@EnableHystrixDashboard
+@SpringCloudApplication
 public class ShopOrderApplication {
 
     public static void main(String[] args) {

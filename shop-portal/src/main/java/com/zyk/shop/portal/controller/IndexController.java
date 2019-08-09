@@ -2,9 +2,11 @@ package com.zyk.shop.portal.controller;
 
 import com.zyk.shop.portal.common.BaseResult;
 import com.zyk.shop.portal.common.ResultState;
+import com.zyk.shop.portal.po.ShopOrder;
 import com.zyk.shop.portal.po.ShopUser;
 import com.zyk.shop.portal.po.ShopUserResult;
 import com.zyk.shop.portal.service.IndexService;
+import com.zyk.shop.portal.service.OrderService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,11 +18,14 @@ import javax.servlet.http.HttpServletRequest;
 
 
 @Slf4j
-@RestController(value = "/")
+@RestController
 public class IndexController {
 
     @Autowired
     private IndexService indexService;
+
+    @Autowired
+    private OrderService orderService;
 
     @RequestMapping(value = {"/","/index","/index.html"}, method = RequestMethod.GET)
     public ModelAndView index() {
@@ -43,16 +48,6 @@ public class IndexController {
         return modelAndView;
     }
 
-    @RequestMapping(value = {"/self_info","/self_info.html"}, method = RequestMethod.GET)
-    public ModelAndView selfInfo(HttpServletRequest request) {
-        ModelAndView modelAndView = new ModelAndView();
-        if(request.getSession().getAttribute("user")==null){
-            modelAndView.setViewName("redirect:index");
-            return modelAndView;
-        }
-        modelAndView.setViewName("self_info");
-        return modelAndView;
-    }
 
     @RequestMapping(value = "/login.do", method = RequestMethod.POST)
     public ModelAndView loginLogic(ShopUser shopUser, String code, HttpServletRequest request) {
@@ -97,8 +92,47 @@ public class IndexController {
         return modelAndView;
     }
 
-    @RequestMapping(value = {"/checkSession"}, method = RequestMethod.GET)
-    public BaseResult checkSession() {
-        return indexService.checkSession(null);
+    @RequestMapping(value = {"/gouwuche","/gouwuche.html"}, method = RequestMethod.GET)
+    public ModelAndView gouwuche() {
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.setViewName("gouwuche");
+        return modelAndView;
     }
+
+    @RequestMapping(value = {"/dingdanzhongxin","/dingdanzhongxin.html"}, method = RequestMethod.GET)
+    public ModelAndView dingdanzhongxin(HttpServletRequest request) {
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.setViewName("dingdanzhongxin");
+        ShopUser shopUser = (ShopUser)request.getSession().getAttribute("user");
+        ShopOrder shopOrder = new ShopOrder();
+        shopOrder.setTokenId(shopUser.getTokenId());
+        BaseResult baseResult = orderService.orderList(shopOrder);
+        log.info("orderListResult <=="+baseResult);
+        if(baseResult.getCode()==ResultState.success.getCode()){
+            modelAndView.addObject("orderList",baseResult.getBody());
+        }
+        return modelAndView;
+    }
+
+    @RequestMapping(value = {"/self_info","/self_info.html"}, method = RequestMethod.GET)
+    public ModelAndView selfInfo() {
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.setViewName("self_info");
+        return modelAndView;
+    }
+
+    @RequestMapping(value = {"/liebiao","/liebiao.html"}, method = RequestMethod.GET)
+    public ModelAndView liebiao() {
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.setViewName("liebiao");
+        return modelAndView;
+    }
+
+    @RequestMapping(value = {"/xiangqing","/xiangqing.html"}, method = RequestMethod.GET)
+    public ModelAndView xiangqing() {
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.setViewName("xiangqing");
+        return modelAndView;
+    }
+
 }

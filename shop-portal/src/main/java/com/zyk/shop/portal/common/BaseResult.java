@@ -7,4 +7,5 @@ import lombok.experimental.Accessors;
 public class BaseResult {
     private int code = ResultState.success.getCode();
     private String message = ResultState.success.toString();
+    private Object body;
 }

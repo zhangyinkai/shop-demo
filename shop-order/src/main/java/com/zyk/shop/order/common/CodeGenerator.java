@@ -33,7 +33,7 @@ public class CodeGenerator {
         throw new MybatisPlusException("请输入正确的" + tip + "！");
     }
 
-    public static void main(String[] args) {
+    public static void generator(String[] args) {
         // 代码生成器
         AutoGenerator mpg = new AutoGenerator();
 

@@ -1,5 +1,6 @@
 package com.zyk.shop.portal.service;
 
+import com.netflix.hystrix.contrib.javanica.annotation.DefaultProperties;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.zyk.shop.portal.common.BaseResult;
 import com.zyk.shop.portal.common.ResultState;
@@ -18,6 +19,7 @@ import org.springframework.web.client.RestTemplate;
 
 @Slf4j
 @Service
+@DefaultProperties(defaultFallback = "defaultFallback")
 public class IndexService {
     @Autowired
     RestTemplate restTemplate;
@@ -44,7 +46,15 @@ public class IndexService {
         return baseResult;
     }
 
-    @HystrixCommand(fallbackMethod = "fallBack")
+    public BaseResult defaultFallback(Throwable throwable) {
+        log.error(throwable.getMessage(),throwable);
+        BaseResult baseResult = new BaseResult();
+        baseResult.setCode(ResultState.error.getCode());
+        baseResult.setMessage("服务器开小差了~");
+        return baseResult;
+    }
+
+    @HystrixCommand
     public BaseResult register(ShopUser shopUser) {
         // 提交body
         return restTemplate.postForObject(appConfig.getUcUrl()+"/user/register",shopUser,ShopUserResult.class);

@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<ul th:fragment="loginTitle">
+    <li th:if="${session.user!=null}" ><a th:text="${session.user==null?'':session.user.userAlias}" href="/self_info.html"></a></li>
+    <li th:if="${session.user==null}" ><a href="/login.html">登录</a></li>
+    <li th:if="${session.user==null}" >|</li>
+    <li th:if="${session.user==null}" ><a href="/register.html">注册</a></li>
+</ul>
+
+</html>

@@ -1,6 +1,6 @@
-package com.zyk.shop.portal.po;
+package com.zyk.shop.order.po;
 
-import com.zyk.shop.portal.common.BaseResult;
+import com.zyk.shop.order.common.BaseResult;
 import lombok.Data;
 import lombok.ToString;
 

@@ -1,17 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44784b3a-221d-4402-9c75-d6db848ec7ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/shop-demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="44784b3a-221d-4402-9c75-d6db848ec7ef" name="Default Changelist" comment="去掉插件">
+      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/com/zyk/shop/order/common/OrderUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/com/zyk/shop/order/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/com/zyk/shop/order/config/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/com/zyk/shop/order/config/HystrixConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/com/zyk/shop/order/interceptor/TokenInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/com/zyk/shop/order/interceptor/TokenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/com/zyk/shop/order/interceptor/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/com/zyk/shop/order/order/constant/StateEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/com/zyk/shop/order/order/controller/ShopOrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/com/zyk/shop/order/order/entity/ShopOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/com/zyk/shop/order/order/mapper/ShopOrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/com/zyk/shop/order/order/service/IShopOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/com/zyk/shop/order/order/service/impl/ShopOrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/com/zyk/shop/order/po/ShopUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/com/zyk/shop/order/po/ShopUserResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/src/main/resources/mapper/ShopOrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/src/main/version/sql/init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/interceptor/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/po/ShopOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/po/StateEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-portal/src/main/resources/templates/title.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-uc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-uc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-order/src/main/java/com/zyk/shop/order/ShopOrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order/src/main/java/com/zyk/shop/order/ShopOrderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-order/src/main/java/com/zyk/shop/order/common/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order/src/main/java/com/zyk/shop/order/common/CodeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-order/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-order/src/test/java/com/zyk/shop/order/ShopOrderApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order/src/test/java/com/zyk/shop/order/ShopOrderApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-portal/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-portal/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/ShopPortalApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/ShopPortalApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/common/BaseResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/common/BaseResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/po/ShopUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/po/ShopUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/po/ShopUserResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/po/ShopUserResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/service/IndexService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/service/IndexService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-portal/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shop-portal/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-portal/src/main/resources/static/dingdanzhongxin.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop-portal/src/main/resources/templates/dingdanzhongxin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-portal/src/main/resources/static/liebiao.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop-portal/src/main/resources/templates/liebiao.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-portal/src/main/resources/static/xiangqing.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop-portal/src/main/resources/templates/xiangqing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-portal/src/main/resources/templates/gouwuche.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop-portal/src/main/resources/templates/gouwuche.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-portal/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop-portal/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-portal/src/main/resources/templates/self_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop-portal/src/main/resources/templates/self_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-portal/src/test/java/com/zyk/shop/portal/ShopPortalApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-portal/src/test/java/com/zyk/shop/portal/ShopPortalApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-uc/src/main/java/com/zyk/shop/uc/user/controller/ShopUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-uc/src/main/java/com/zyk/shop/uc/user/controller/ShopUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-uc/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shop-uc/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/shop-portal/target/" />
     <ignored path="$PROJECT_DIR$/eureka-server/target/" />
     <ignored path="$PROJECT_DIR$/shop-uc/target/" />
+    <ignored path="$PROJECT_DIR$/shop-order/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,36 +142,92 @@
     <session id="1679031535">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.6" value="3" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="md" value="1" />
-          <entry key="xml" value="2" />
+          <entry key="class" value="75" />
+          <entry key="cmd" value="1" />
+          <entry key="factories" value="1" />
+          <entry key="handlers" value="1" />
+          <entry key="html" value="33" />
+          <entry key="java" value="214" />
+          <entry key="md" value="2" />
+          <entry key="pom" value="9" />
+          <entry key="properties" value="31" />
+          <entry key="schemas" value="1" />
+          <entry key="sql" value="3" />
+          <entry key="xml" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="1" />
-          <entry key="XML" value="2" />
+          <entry key="CLASS" value="75" />
+          <entry key="HTML" value="33" />
+          <entry key="JAVA" value="214" />
+          <entry key="Markdown" value="2" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Properties" value="33" />
+          <entry key="SQL" value="3" />
+          <entry key="XML" value="29" />
+          <entry key="spring.factories" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="xml" value="1" />
+          <entry key="dummy" value="5" />
+          <entry key="html" value="369" />
+          <entry key="java" value="7477" />
+          <entry key="properties" value="497" />
+          <entry key="sql" value="85" />
+          <entry key="txt" value="53" />
+          <entry key="xml" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="XML" value="1" />
+          <entry key="HTML" value="369" />
+          <entry key="JAVA" value="7477" />
+          <entry key="PLAIN_TEXT" value="58" />
+          <entry key="Properties" value="497" />
+          <entry key="SQL" value="85" />
+          <entry key="XML" value="15" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shop-portal/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-zuul/2.1.2.RELEASE/spring-cloud-netflix-zuul-2.1.2.RELEASE.jar!/org/springframework/cloud/netflix/zuul/filters/ZuulProperties.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="163" column="16" selection-start-line="163" selection-start-column="16" selection-end-line="163" selection-end-column="16" />
+              <folding>
+                <element signature="e#5580#5581#0" expanded="true" />
+                <element signature="e#5634#5635#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -134,87 +238,63 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/shop-portal/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-200">
+              <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-actuator/2.1.6.RELEASE/spring-boot-starter-actuator-2.1.6.RELEASE.pom">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-894" />
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-975" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/shop-uc/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="581">
-              <caret line="128" column="21" selection-start-line="128" selection-start-column="21" selection-end-line="128" selection-end-column="21" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop-uc/src/main/resources/mapper/ShopUserMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop-uc/src/main/java/com/zyk/shop/uc/user/controller/ShopUserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="22" column="45" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop-uc/src/main/java/com/zyk/shop/uc/user/service/IShopUserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="13" column="33" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop-uc/src/main/java/com/zyk/shop/uc/user/service/impl/ShopUserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop-uc/src/main/java/com/zyk/shop/uc/user/entity/ShopUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop-uc/src/main/java/com/zyk/shop/uc/user/mapper/ShopUserMapper.java">
+        <entry file="file://$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/ShopPortalApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="350">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#631#632#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.1.2/mybatis-plus-extension-3.1.2.jar!/com/baomidou/mybatisplus/extension/service/impl/ServiceImpl.class">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.1.2.RELEASE/spring-cloud-commons-2.1.2.RELEASE.jar!/org/springframework/cloud/client/SpringCloudApplication.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+            <state relative-caret-position="308">
+              <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shop-uc/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shop-order/src/main/java/com/zyk/shop/order/interceptor/TokenInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="28" column="51" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -225,22 +305,38 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>../static</find>
       <find>/</find>
       <find>\\</find>
       <find>\</find>
       <find>templatePath</find>
+      <find>session</find>
+      <find>head</find>
+      <find>spring-boot-starter-data-redis</find>
+      <find>LocalDateTime</find>
+      <find>indexService</find>
+      <find>/self_info</find>
+      <find>../static</find>
+      <find>orderList</find>
+      <find>order</find>
+      <find>SimpleDateFormat</find>
+      <find>zuul.ignored-services</find>
+      <find>zu</find>
+      <find>zuul</find>
+      <find>OrderedHealthAggregator</find>
     </findStrings>
     <replaceStrings>
       <replace>/</replace>
       <replace>\\\\</replace>
       <replace>\\</replace>
+      <replace>Date</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -249,24 +345,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/shop-uc/pom.xml" />
+        <option value="$PROJECT_DIR$/shop-uc/src/main/java/com/zyk/shop/uc/ShopUcApplication.java" />
+        <option value="$PROJECT_DIR$/shop-uc/src/main/java/com/zyk/shop/uc/config/RedissonClientConfig.java" />
+        <option value="$PROJECT_DIR$/shop-uc/src/main/java/com/zyk/shop/uc/user/entity/ShopUser.java" />
+        <option value="$PROJECT_DIR$/shop-uc/src/main/java/com/zyk/shop/uc/common/CommonUtil.java" />
+        <option value="$PROJECT_DIR$/shop-uc/src/main/java/com/zyk/shop/uc/common/TokenUtil.java" />
+        <option value="$PROJECT_DIR$/shop-uc/src/test/java/com/zyk/shop/uc/ShopUcApplicationTests.java" />
+        <option value="$PROJECT_DIR$/shop-order/pom.xml" />
+        <option value="$PROJECT_DIR$/shop-order/src/main/java/com/zyk/shop/order/ShopOrderApplication.java" />
+        <option value="$PROJECT_DIR$/shop-portal/src/test/java/com/zyk/shop/portal/ShopPortalApplicationTests.java" />
+        <option value="$PROJECT_DIR$/shop-order/src/test/java/com/zyk/shop/order/ShopOrderApplicationTests.java" />
+        <option value="$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/po/ShopUser.java" />
+        <option value="$PROJECT_DIR$/shop-order/src/main/java/com/zyk/shop/order/po/ShopUser.java" />
+        <option value="$PROJECT_DIR$/shop-order/src/main/java/com/zyk/shop/order/interceptor/WebConfig.java" />
+        <option value="$PROJECT_DIR$/shop-order/src/main/java/com/zyk/shop/order/interceptor/TokenService.java" />
+        <option value="$PROJECT_DIR$/shop-order/src/main/java/com/zyk/shop/order/po/ShopUserResult.java" />
+        <option value="$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/po/ShopUserResult.java" />
+        <option value="$PROJECT_DIR$/shop-order/src/main/java/com/zyk/shop/order/interceptor/TokenInterceptor.java" />
+        <option value="$PROJECT_DIR$/shop-order/src/main/version/sql/init.sql" />
+        <option value="$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/interceptor/TokenInterceptor.java" />
+        <option value="$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/interceptor/WebConfig.java" />
+        <option value="$PROJECT_DIR$/shop-portal/src/main/resources/templates/header.html" />
+        <option value="$PROJECT_DIR$/shop-portal/src/main/resources/templates/title.html" />
+        <option value="$PROJECT_DIR$/shop-portal/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/shop-portal/src/main/resources/templates/xiangqing.html" />
+        <option value="$PROJECT_DIR$/shop-portal/src/main/resources/templates/self_info.html" />
+        <option value="$PROJECT_DIR$/shop-portal/src/main/resources/templates/liebiao.html" />
+        <option value="$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/po/ShopOrder.java" />
+        <option value="$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/config/AppConfig.java" />
+        <option value="$PROJECT_DIR$/shop-order/src/main/java/com/zyk/shop/order/common/OrderUtil.java" />
+        <option value="$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/common/BaseResult.java" />
+        <option value="$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/shop-portal/src/main/resources/templates/gouwuche.html" />
+        <option value="$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/interceptor/LoginInterceptor.java" />
+        <option value="$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/shop-order/src/main/java/com/zyk/shop/order/order/controller/ShopOrderController.java" />
+        <option value="$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/shop-order/src/main/java/com/zyk/shop/order/order/constant/StateEnum.java" />
+        <option value="$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/po/StateEnum.java" />
+        <option value="$PROJECT_DIR$/shop-order/src/main/java/com/zyk/shop/order/order/entity/ShopOrder.java" />
+        <option value="$PROJECT_DIR$/shop-portal/src/main/resources/templates/dingdanzhongxin.html" />
+        <option value="$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/service/IndexService.java" />
+        <option value="$PROJECT_DIR$/shop-uc/src/main/java/com/zyk/shop/uc/user/controller/ShopUserController.java" />
+        <option value="$PROJECT_DIR$/shop-order/src/main/java/com/zyk/shop/order/common/CodeGenerator.java" />
+        <option value="$PROJECT_DIR$/shop-order/src/main/java/com/zyk/shop/order/config/HystrixConfig.java" />
+        <option value="$PROJECT_DIR$/shop-order/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/shop-portal/src/main/resources/static/dingdanzhongxin.html" />
+        <option value="$PROJECT_DIR$/shop-uc/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/ShopPortalApplication.java" />
         <option value="$PROJECT_DIR$/shop-portal/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/shop-portal/pom.xml" />
-        <option value="$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/shop-portal/src/main/resources/templates/index.html" />
-        <option value="$PROJECT_DIR$/shop-uc/src/main/version/sql/init.sql" />
-        <option value="$PROJECT_DIR$/shop-uc/src/main/java/com/zyk/shop/uc/user/dao/ShopUserMapper.java" />
-        <option value="$PROJECT_DIR$/shop-uc/src/main/java/com/zyk/shop/uc/user/service/impl/ShopUserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/shop-uc/mybatis-generator/mybatis.properties" />
-        <option value="$PROJECT_DIR$/shop-uc/mybatis-generator/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/shop-uc/src/main/java/com/zyk/shop/uc/common/CodeGenerator.java" />
-        <option value="$PROJECT_DIR$/shop-uc/src/main/java/com/zyk/shop/uc/user/entity/ShopUser.java" />
-        <option value="$PROJECT_DIR$/shop-uc/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/shop-uc/src/main/java/com/zyk/shop/uc/user/controller/ShopUserController.java" />
-        <option value="$PROJECT_DIR$/shop-uc/src/main/java/com/zyk/shop/uc/ShopUcApplication.java" />
-        <option value="$PROJECT_DIR$/shop-uc/pom.xml" />
       </list>
     </option>
   </component>
@@ -281,12 +410,21 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="shop-portal" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="shop-portal" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="shop-uc" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="shop-uc" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
@@ -306,45 +444,71 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="shop-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop-uc" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop-portal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565005598829" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565348467152" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/eureka-server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15429688" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\work\other\zhangyk\code\shop\shop-demo\shop-portal\src\main\resources\templates" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\other\zhangyk\code\shop-demo\shop-portal\src\main\java\com\zyk\shop\portal" />
+      <recent name="D:\work\other\zhangyk\code\shop-demo\shop-order\src\main\java\com\zyk\shop\order" />
+      <recent name="D:\work\other\zhangyk\code\shop-demo\shop-order\src\main" />
+      <recent name="D:\work\other\zhangyk\code\shop-demo\shop-portal\src\main\java\com\zyk\shop\portal\config" />
       <recent name="D:\work\other\zhangyk\code\shop\shop-demo\shop-uc" />
-      <recent name="D:\work\other\zhangyk\code\shop\shop-demo\shop-portal\src\main\resources\static" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zyk.shop.portal.po" />
+      <recent name="com.zyk.shop.portal.service" />
+      <recent name="com.zyk.shop.order.po" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\other\zhangyk\code\shop-demo\shop-portal\src\main\resources\templates" />
+      <recent name="D:\work\other\zhangyk\code\shop\shop-demo\shop-portal\src\main\resources\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -363,14 +527,15 @@
         </RuleState>
       </list>
     </option>
+    <option name="contentProportion" value="0.31872293" />
   </component>
-  <component name="RunManager" selected="Spring Boot.ShopUcApplication">
+  <component name="RunManager" selected="Spring Boot.ShopPortalApplication">
     <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zyk.shop.uc.common.CodeGenerator" />
-      <module name="shop-uc" />
+      <option name="MAIN_CLASS_NAME" value="com.zyk.shop.order.common.CodeGenerator" />
+      <module name="shop-order" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zyk.shop.uc.common.*" />
+          <option name="PATTERN" value="com.zyk.shop.order.common.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -378,15 +543,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShopUserServiceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zyk.shop.uc.user.service.impl.ShopUserServiceImpl" />
-      <module name="shop-uc" />
+    <configuration name="ShopOrderApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shop-order" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zyk.shop.uc.user.service.impl.*" />
+          <option name="PATTERN" value="com.zyk.shop.order.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.zyk.shop.order" />
+      <option name="MAIN_CLASS_NAME" value="com.zyk.shop.order.ShopOrderApplicationTests" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopOrderApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shop-order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zyk.shop.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zyk.shop.order" />
+      <option name="MAIN_CLASS_NAME" value="com.zyk.shop.order.ShopOrderApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopPortalApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shop-portal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zyk.shop.portal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zyk.shop.portal" />
+      <option name="MAIN_CLASS_NAME" value="com.zyk.shop.portal.ShopPortalApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -398,8 +596,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShopPortalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="ShopOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shop-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zyk.shop.order.ShopOrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopPortalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="shop-portal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zyk.shop.portal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zyk.shop.portal.ShopPortalApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -413,16 +624,22 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.ShopPortalApplication" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.ShopUcApplication" />
-      <item itemvalue="Application.ShopUserServiceImpl" />
+      <item itemvalue="Spring Boot.ShopOrderApplication" />
       <item itemvalue="Application.CodeGenerator" />
+      <item itemvalue="JUnit.ShopOrderApplicationTests.contextLoads" />
+      <item itemvalue="JUnit.ShopPortalApplicationTests.contextLoads" />
+      <item itemvalue="Spring Boot.ShopPortalApplication" />
+      <item itemvalue="JUnit.ShopOrderApplicationTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ShopPortalApplication" />
+        <item itemvalue="JUnit.ShopOrderApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.ShopOrderApplicationTests" />
+        <item itemvalue="JUnit.ShopPortalApplicationTests.contextLoads" />
         <item itemvalue="Application.CodeGenerator" />
-        <item itemvalue="Application.ShopUserServiceImpl" />
       </list>
     </recent_temporary>
   </component>
@@ -437,18 +654,95 @@
       <option name="presentableId" value="Default" />
       <updated>1564970917846</updated>
       <workItem from="1564970920588" duration="21249000" />
-      <workItem from="1565007330558" duration="257000" />
+      <workItem from="1565007330558" duration="491000" />
+      <workItem from="1565007858563" duration="157000" />
+      <workItem from="1565053807229" duration="28689000" />
+      <workItem from="1565140352487" duration="17705000" />
+      <workItem from="1565226388087" duration="27282000" />
+      <workItem from="1565312884289" duration="4780000" />
+      <workItem from="1565317854540" duration="32000" />
+      <workItem from="1565319476281" duration="877000" />
+      <workItem from="1565320760901" duration="16135000" />
     </task>
+    <task id="LOCAL-00001" summary="去掉插件">
+      <created>1565007746338</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1565007746339</updated>
+    </task>
+    <task id="LOCAL-00002" summary="登录注册">
+      <created>1565076542429</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1565076542429</updated>
+    </task>
+    <task id="LOCAL-00003" summary="添加spring session">
+      <created>1565094116557</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1565094116557</updated>
+    </task>
+    <task id="LOCAL-00004" summary="集成redisson,token机制建立">
+      <created>1565175318038</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1565175318038</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="ShopPortalApplicationTests_contextLoads - 2019.08.08 at 12h 00m 56s.xml">
+      <configuration name="ShopPortalApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShopPortalApplicationTests_contextLoads - 2019.08.08 at 12h 04m 30s.xml">
+      <configuration name="ShopPortalApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShopPortalApplicationTests_contextLoads - 2019.08.08 at 12h 07m 05s.xml">
+      <configuration name="ShopPortalApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShopPortalApplicationTests_contextLoads - 2019.08.08 at 12h 14m 33s.xml">
+      <configuration name="ShopPortalApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShopPortalApplicationTests_contextLoads - 2019.08.08 at 13h 38m 55s.xml">
+      <configuration name="ShopPortalApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShopPortalApplicationTests_contextLoads - 2019.08.08 at 13h 44m 22s.xml">
+      <configuration name="ShopPortalApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShopOrderApplicationTests - 2019.08.08 at 13h 49m 49s.xml">
+      <configuration name="ShopOrderApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShopOrderApplicationTests_contextLoads - 2019.08.08 at 13h 57m 18s.xml">
+      <configuration name="ShopOrderApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShopOrderApplicationTests_contextLoads - 2019.08.08 at 13h 59m 49s.xml">
+      <configuration name="ShopOrderApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShopOrderApplicationTests_contextLoads - 2019.08.08 at 14h 01m 38s.xml">
+      <configuration name="ShopOrderApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21506000" />
+    <option name="totallyTimeSpent" value="117397000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29637527" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17803837" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -458,19 +752,19 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.52597404" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.8387446" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.46045503" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.8385699" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32900432" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32900432" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32827735" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32900432" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32900432" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.62296855" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32827735" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.72077924" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.56446373" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.6294691" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -483,46 +777,79 @@
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info id="Image Layers" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="Web" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.29317698" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32900432" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="3" />
-      <window_info anchor="bottom" id="Java Enterprise" order="4" weight="0.32900432" />
-      <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run Dashboard" order="7" weight="0.49025974" />
-      <window_info anchor="bottom" id="Message" order="8" />
-      <window_info anchor="bottom" id="Find" order="9" />
-      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.52597404" />
-      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="14" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Maven Projects" order="2" visible="true" weight="0.26226014" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Bean Validation" order="6" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17803837" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.60455036" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.8385699" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32900432" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32827735" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.62296855" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32827735" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.56446373" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.8905742" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.26226014" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="去掉插件" />
+    <MESSAGE value="登录注册" />
+    <MESSAGE value="添加spring session" />
+    <MESSAGE value="集成redisson,token机制建立" />
+    <option name="LAST_COMMIT_MESSAGE" value="集成redisson,token机制建立" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -533,278 +860,215 @@
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shop-order/src/test/java/com/zyk/shop/order/ShopOrderApplicationTests.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/controller/OrderController.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/shop-portal/src/main/resources/application.properties">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0-sources.jar!/com/fasterxml/jackson/annotation/JsonIgnore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="71" />
+        <state relative-caret-position="444">
+          <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop-portal/src/main/resources/static/register.html">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.8.RELEASE/spring-web-5.1.8.RELEASE.jar!/org/springframework/http/MediaType.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225" />
+        <state relative-caret-position="280">
+          <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.16/mysql-connector-java-8.0.16.pom">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.8.RELEASE/spring-web-5.1.8.RELEASE.jar!/org/springframework/web/client/RestTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="275" column="33" selection-start-line="275" selection-start-column="33" selection-end-line="275" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/config/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.1.2/mybatis-plus-extension-3.1.2.jar!/com/baomidou/mybatisplus/extension/service/IService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-275">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/common/BaseResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/po/ShopUserResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/po/ShopUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="844">
+          <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-portal/src/main/resources/templates/gouwuche.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="81" column="37" lean-forward="true" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-portal/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-portal/src/main/resources/templates/register.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-75" />
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.16/mysql-connector-java-8.0.16.jar!/com/mysql/cj/jdbc/Driver.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.8.RELEASE/spring-webmvc-5.1.8.RELEASE.jar!/org/springframework/web/servlet/handler/HandlerInterceptorAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        <state relative-caret-position="48">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.16/mysql-connector-java-8.0.16.jar!/com/mysql/jdbc/Driver.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.8.RELEASE/spring-web-5.1.8.RELEASE.jar!/org/springframework/web/bind/annotation/RestController.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="52" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="52" />
+        <state relative-caret-position="275">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/zaxxer/HikariCP/3.2.0/HikariCP-3.2.0.jar!/com/zaxxer/hikari/HikariDataSource.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/web/bind/annotation/RequestMapping.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="250">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop-uc/src/main/java/com/zyk/shop/uc/user/service/ShopUserService.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/Assert.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/web/bind/annotation/RestController.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="630" column="15" selection-start-line="630" selection-start-column="15" selection-end-line="630" selection-end-column="15" />
+        <state relative-caret-position="275">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/mybatis/spring/boot/mybatis-spring-boot-starter/2.1.0/mybatis-spring-boot-starter-2.1.0.pom">
+    <entry file="file://$PROJECT_DIR$/shop-order/src/main/java/com/zyk/shop/order/order/controller/ShopOrderController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="23" column="12" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="12" />
+        <state relative-caret-position="525">
+          <caret line="63" column="50" lean-forward="true" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/tk/mybatis/mapper-spring-boot-starter/2.1.5/mapper-spring-boot-starter-2.1.5.pom">
+    <entry file="file://$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/service/OrderService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+        <state relative-caret-position="445">
+          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.1.5/mapper-base-1.1.5.jar!/tk/mybatis/mapper/common/base/BaseSelectMapper.class">
+    <entry file="file://$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/interceptor/WebConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        <state relative-caret-position="275">
+          <caret line="14" column="113" selection-start-line="14" selection-start-column="98" selection-end-line="14" selection-end-column="113" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.1.5/mapper-base-1.1.5.jar!/tk/mybatis/mapper/common/base/insert/InsertMapper.class">
+    <entry file="file://$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/interceptor/LoginInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="425">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.1.5/mapper-base-1.1.5.jar!/tk/mybatis/mapper/common/base/BaseInsertMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.1.5/mapper-base-1.1.5.jar!/tk/mybatis/mapper/common/BaseMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.1.5/mapper-base-1.1.5.jar!/tk/mybatis/mapper/common/Mapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-uc/src/main/java/com/zyk/shop/uc/user/entity/ShopUserExample.java" />
-    <entry file="file://$USER_HOME$/.IntelliJIdea2018.2/system/extResources/cf63db72_mybatis-generator-config_1_0.dtd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="56" column="2" selection-start-line="56" selection-start-column="2" selection-end-line="56" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-generator/3.1.2/mybatis-plus-generator-3.1.2.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-118" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-uc/src/main/java/com/zyk/shop/uc/user/dao/ShopUserMapper.java" />
-    <entry file="file://$PROJECT_DIR$/shop-uc/mybatis-generator/generatorConfig.xml" />
-    <entry file="file://$PROJECT_DIR$/shop-uc/mybatis-generator/mybatis.properties" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-generator/3.1.2/mybatis-plus-generator-3.1.2.jar!/com/baomidou/mybatisplus/generator/engine/FreemarkerTemplateEngine.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-generator/3.1.2/mybatis-plus-generator-3.1.2.jar!/com/baomidou/mybatisplus/generator/config/builder/ConfigBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2850">
-          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-generator/3.1.2/mybatis-plus-generator-3.1.2.jar!/templates/entity.kt.btl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-generator/3.1.2/mybatis-plus-generator-3.1.2.jar!/templates/entity.java.vm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2850" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-generator/3.1.2/mybatis-plus-generator-3.1.2.jar!/templates/entity.java.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2204">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-generator/3.1.2/mybatis-plus-generator-3.1.2.jar!/com/baomidou/mybatisplus/generator/AutoGenerator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-generator/3.1.2/mybatis-plus-generator-3.1.2.jar!/com/baomidou/mybatisplus/generator/config/querys/OracleQuery.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-generator/3.1.2/mybatis-plus-generator-3.1.2.jar!/com/baomidou/mybatisplus/generator/config/po/TableField.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-generator/3.1.2/mybatis-plus-generator-3.1.2.jar!/com/baomidou/mybatisplus/generator/config/querys/MySqlQuery.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-uc/src/test/java/com/zyk/shop/uc/ShopUcApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.1.2/mybatis-plus-core-3.1.2.jar!/com/baomidou/mybatisplus/core/toolkit/StringPool.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-boot-starter/3.1.2/mybatis-plus-boot-starter-3.1.2.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-uc/src/main/resources/mapper/mapping/ShopUserMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/shop-uc/src/main/java/com/zyk/shop/uc/common/BaseEntity.java" />
-    <entry file="file://$PROJECT_DIR$/shop-uc/src/main/version/sql/init.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-annotation/3.1.2/mybatis-plus-annotation-3.1.2.jar!/com/baomidou/mybatisplus/annotation/IdType.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-uc/src/main/java/com/zyk/shop/uc/common/CodeGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="102" column="20" selection-start-line="102" selection-start-column="20" selection-end-line="102" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-uc/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-uc/src/main/java/com/zyk/shop/uc/ShopUcApplication.java">
+    <entry file="file://$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/po/StateEnum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop-uc/src/main/resources/mapper/ShopUserMapper.xml">
+    <entry file="file://$PROJECT_DIR$/shop-portal/src/main/resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="-8000">
+          <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop-uc/src/main/java/com/zyk/shop/uc/user/controller/ShopUserController.java">
+    <entry file="file://$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/controller/OrderController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="22" column="45" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="45" />
+          <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop-uc/src/main/java/com/zyk/shop/uc/user/service/IShopUserService.java">
+    <entry file="file://$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/service/IndexService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="13" column="33" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="33" />
+        <state relative-caret-position="175">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop-uc/src/main/java/com/zyk/shop/uc/user/service/impl/ShopUserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/shop-portal/src/main/resources/templates/dingdanzhongxin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="2775">
+          <caret line="111" column="46" selection-start-line="111" selection-start-column="46" selection-end-line="111" selection-end-column="46" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop-uc/src/main/java/com/zyk/shop/uc/user/entity/ShopUser.java">
+    <entry file="file://$PROJECT_DIR$/shop-order/src/main/java/com/zyk/shop/order/order/entity/ShopOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="77" column="25" selection-start-line="77" selection-start-column="15" selection-end-line="77" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-order/src/main/java/com/zyk/shop/order/order/constant/StateEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/po/ShopOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
@@ -814,17 +1078,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop-uc/src/main/java/com/zyk/shop/uc/user/mapper/ShopUserMapper.java">
+    <entry file="file://$PROJECT_DIR$/shop-order/src/main/java/com/zyk/shop/order/common/OrderUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="250">
+          <caret line="14" column="51" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.1.2/mybatis-plus-extension-3.1.2.jar!/com/baomidou/mybatisplus/extension/service/impl/ServiceImpl.class">
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/zyk/eureka/server/EurekaServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1175">
+          <caret line="47" column="28" lean-forward="true" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-uc/src/main/java/com/zyk/shop/uc/user/controller/ShopUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="25" column="3" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-order/src/main/java/com/zyk/shop/order/common/CodeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-metrics-event-stream/1.5.18/hystrix-metrics-event-stream-1.5.18.jar!/com/netflix/hystrix/contrib/metrics/eventstream/HystrixMetricsStreamServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.7.RELEASE/spring-boot-2.1.7.RELEASE.jar!/org/springframework/boot/web/servlet/ServletRegistrationBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-order/src/main/java/com/zyk/shop/order/config/HystrixConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-uc/src/main/java/com/zyk/shop/uc/ShopUcApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-portal/mvnw.cmd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.1.2.RELEASE/spring-cloud-netflix-eureka-client-2.1.2.RELEASE.jar!/org/springframework/cloud/netflix/eureka/EurekaInstanceConfigBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="330" column="16" selection-start-line="330" selection-start-column="16" selection-end-line="330" selection-end-column="16" />
+          <folding>
+            <element signature="e#7248#7249#0" expanded="true" />
+            <element signature="e#7292#7293#0" expanded="true" />
+            <element signature="e#9907#9908#0" expanded="true" />
+            <element signature="e#9961#9962#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-order/src/main/java/com/zyk/shop/order/ShopOrderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="15" column="49" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -836,15 +1190,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
+    <entry file="file://$PROJECT_DIR$/shop-order/src/main/java/com/zyk/shop/order/interceptor/TokenInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-975" />
+        <state relative-caret-position="111">
+          <caret line="28" column="51" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="51" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop-uc/pom.xml">
+    <entry file="file://$PROJECT_DIR$/shop-uc/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="128" column="21" selection-start-line="128" selection-start-column="21" selection-end-line="128" selection-end-column="21" />
+        <state relative-caret-position="300">
+          <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-zuul/2.1.2.RELEASE/spring-cloud-netflix-zuul-2.1.2.RELEASE.jar!/org/springframework/cloud/netflix/zuul/filters/ZuulProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="163" column="16" selection-start-line="163" selection-start-column="16" selection-end-line="163" selection-end-column="16" />
+          <folding>
+            <element signature="e#5580#5581#0" expanded="true" />
+            <element signature="e#5634#5635#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.1.2.RELEASE/spring-cloud-commons-2.1.2.RELEASE.jar!/org/springframework/cloud/client/SpringCloudApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-order/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-portal/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-portal/src/main/java/com/zyk/shop/portal/ShopPortalApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-actuator/2.1.6.RELEASE/spring-boot-starter-actuator-2.1.6.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-894" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-portal/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200">
+          <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -901,7 +1315,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>shop-portal</last-edited>
+          <last-edited>shop-order</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -1,4 +1,4 @@
-package com.zyk.shop.portal.po;
+package com.zyk.shop.order.po;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
